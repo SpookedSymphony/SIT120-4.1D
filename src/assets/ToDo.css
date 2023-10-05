@@ -1,0 +1,23 @@
+:root {
+    --spacing: center;
+}
+
+label {
+    padding: 10px;
+}
+
+.centered {
+    display: flex;
+    justify-content: var(--spacing);
+    align-items: var(--spacing);
+
+}
+
+.todo-list {
+    padding-left: 0;
+    list-style: square; 
+}
+
+.todo-list li {
+    margin-bottom: 5px; 
+}

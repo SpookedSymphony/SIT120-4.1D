@@ -1,0 +1,57 @@
+:root {
+    --spacing: center;
+}
+
+p {
+    text-align: var(--spacing);
+    font-size: small;
+    color: teal;
+
+}
+
+h1 {
+    font-size: 50px; 
+    text-align: var(--spacing);
+    color: darksalmon;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: var(--spacing); 
+    align-items: var(--spacing); 
+    margin-bottom: 50px !important;
+    margin: auto;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: var(--spacing); 
+    align-items: var(--spacing);
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: teal;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    width: 100% !important;
+    height: 100px !important;
+    box-sizing: border-box;
+    border: 2px solid teal;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+input {
+    border: 2px solid teal;
+}

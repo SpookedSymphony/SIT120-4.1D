@@ -1,0 +1,8 @@
+{
+  "projects": [
+    { "title": "Project 1", "id": 1, "details": "Creation of a portfolio website" },
+    { "title": "Project 2", "id": 2, "details": "Creation of a 2D video game" },
+    { "title": "Project 3", "id": 3, "details": "Creation of a database for a TAFE provider" }
+  ]
+}
+  
